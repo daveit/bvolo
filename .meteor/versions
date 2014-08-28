@@ -1,4 +1,7 @@
 accounts-base@1.0.0
+accounts-entry@0.0.0
+accounts-password@1.0.0
+accounts-t9n@0.0.0
 application-configuration@1.0.0
 autoform@0.0.0
 autoupdate@1.0.5
@@ -12,6 +15,7 @@ ctl-helper@1.0.2
 ctl@1.0.0
 deps@1.0.1
 ejson@1.0.0
+email@1.0.2
 follower-livedata@1.0.0
 fontawesome4@0.0.0
 geojson-utils@1.0.0
@@ -36,6 +40,7 @@ minifiers@1.0.2
 minimongo@1.0.1
 moment@0.0.0
 mongo-livedata@1.0.3
+npm-bcrypt@0.7.7
 observe-sequence@1.0.1
 ordered-dict@1.0.0
 random@1.0.0
@@ -46,11 +51,15 @@ roles@0.0.0
 routepolicy@1.0.0
 service-configuration@1.0.0
 session@1.0.0
+sha@1.0.0
+simple-form@0.0.0
 simple-schema@0.0.0
 spacebars-compiler@1.0.1
 spacebars@1.0.0
+srp@1.0.0
 standard-app-packages@1.0.0
 templating@1.0.4
 ui@1.0.0
+underscore-string-latest@0.0.0
 underscore@1.0.0
 webapp@1.0.2
