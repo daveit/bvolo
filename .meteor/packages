@@ -4,5 +4,11 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
-insecure
+coffeescript
+less
+iron-router
+handlebar-helpers
+fontawesome4
+autoform
+roles
+less-bootstrap-3

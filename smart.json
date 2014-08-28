@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "handlebar-helpers": {},
+    "less-bootstrap-3": {},
+    "fontawesome4": {},
+    "autoform": {},
+    "roles": {}
+  }
+}
