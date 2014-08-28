@@ -1,5 +1,4 @@
-if typeof Schemas == 'undefined'
-  Schemas = {}
+Schemas = {}
 
 Schemas.UserProfile = new SimpleSchema(
   firstName:
