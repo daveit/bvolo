@@ -1,0 +1,2 @@
+UI.registerHelper 'Config', ->
+	Config
