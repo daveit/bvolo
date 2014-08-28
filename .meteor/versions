@@ -2,6 +2,7 @@ accounts-base@1.0.0
 accounts-entry@0.0.0
 accounts-password@1.0.0
 accounts-t9n@0.0.0
+admin@0.0.0
 application-configuration@1.0.0
 autoform@0.0.0
 autoupdate@1.0.5
