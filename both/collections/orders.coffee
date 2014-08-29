@@ -30,6 +30,7 @@ Schemas.Orders = new SimpleSchema
 					label: user.emails[0].address
 					value: user._id
 
+
 	orderNumber:
 		type: String
 		optional: true
@@ -45,6 +46,13 @@ Schemas.Orders = new SimpleSchema
 
 	item:
 		type: [Schemas.OrderRow]
+
+	reference:
+		type: Number
+		optional: true
+		
+	finalized:
+		type: Boolean
 
 Orders.attachSchema(Schemas.Orders)
 

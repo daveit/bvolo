@@ -1,8 +1,8 @@
 Schemas = {}
 
-Posts = new Meteor.Collection('posts');
+Reports = new Meteor.Collection('reports');
 
-Schemas.Posts = new SimpleSchema
+Schemas.Reports = new SimpleSchema
 	title:
 		type:String
 		max: 60
@@ -18,9 +18,9 @@ Schemas.Posts = new SimpleSchema
 			if this.isInsert
 				new Date()
 
-Posts.attachSchema(Schemas.Posts)
+Reports.attachSchema(Schemas.Reports)
 
 if Meteor.isClient
-	window.Posts = Posts
+	window.Reports = Reports
 else if Meteor.isServer
-	global.Posts = Posts
+	global.Reports = Reports
