@@ -16,20 +16,20 @@ Schemas.Posts = new SimpleSchema
 		type: Date
 		autoValue: ->
 			if this.isInsert
-				return new Date
+				new Date()
 
 	updatedAt:
 		type:Date
 		optional:true
 		autoValue: ->
 			if this.isUpdate
-				return new Date
+				new Date()
 	owner: 
 		type: String
 		regEx: SimpleSchema.RegEx.Id
 		autoValue: ->
 			if this.isInsert
-				return Meteor.userId()
+				Meteor.userId()
 
 		autoform:
 			options: ->

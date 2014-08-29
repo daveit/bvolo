@@ -4,9 +4,10 @@ Config =
 		'<b>' + @name + '</b>'
 	footer: ->
 		@name + ' - Copyright 2014'
+	emails:
+		from: 'noreply@' + Meteor.absoluteUrl()
 
 if Meteor.isClient
 	window.Config = Config
-
-if Meteor.isServer
+else if Meteor.isServer
 	global.Config = Config

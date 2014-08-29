@@ -226,10 +226,7 @@ Schemas.UserProfile = new SimpleSchema(
 )
 
 Schemas.User = new SimpleSchema(
-  _id:
-    type: String
-    regEx: SimpleSchema.RegEx.Id
-
+  
   emails:
     type: [Object]
 

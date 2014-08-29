@@ -1,13 +1,10 @@
 AdminConfig =
-    adminEmails: ['benjaminpeterjonesesquire@gmail.com','craig.w.griffin@gmail.com']
+    # adminEmails: ['benjaminpeterjonesesquire@gmail.com','dave.southperth@gmail.com']
     fromEmail: 'noreply@app.com'
     collections : 
-        Posts: {
-            icon: 'pencil'
-        }
+        Posts: {}
 
 if Meteor.isClient
 	window.AdminConfig = AdminConfig
-
-if Meteor.isServer
+else if Meteor.isServer
 	global.AdminConfig = AdminConfig
