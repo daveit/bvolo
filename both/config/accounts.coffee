@@ -7,7 +7,7 @@ if Meteor.isClient
       homeRoute: '/'
       dashboardRoute: '/'
       profileRoute: 'profile'
-      passwordSignupFields: 'EMAIL_ONLY'
+      passwordSignupFields: 'USERNAME_AND_EMAIL'
 
 if Meteor.isServer
   Accounts.emailTemplates.siteName = Config.siteName
