@@ -6,3 +6,9 @@ UI.registerHelper 'niceName',->
 		Meteor.user().profile.firstName
 	else
 		Meteor.user().emails[0].address
+
+UI.registerHelper 'Users', ->
+	Meteor.users
+
+UI.registerHelper 'User', ->
+	Meteor.user()

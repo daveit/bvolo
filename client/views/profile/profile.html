@@ -1,3 +1,11 @@
 <template name="profile">
-<h1>My Profile</h1>
+	<div class="container">
+		<div class="row" id="champion-messages">
+			<h1>{{niceName}}</h1>
+			{{#autoForm id="updateProfile" collection=Users doc=currentUser type="update"}}
+			{{> afQuickField name='profile'}}
+			<button type="submit" class="btn btn-primary">Update</button>
+			{{/autoForm}}
+		</div>
+	</div>
 </template>
