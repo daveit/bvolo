@@ -10,25 +10,42 @@ Router.map ->
 	
 	@route "home",
 		path: "/"
-		waitOn: ->
-			[
-				Meteor.subscribe('items')
-				Meteor.subscribe('categories')
-			]
+		data: ->
+			{
+				items: Items.find({}).fetch()
+				categories: Categories.find().fetch()
+			}
+		action: ->
+			if @ready()
+				Session.set 'category', null
+				Session.set 'item', null
+				@render()
 	@route "category",
 		path: '/category/:_id'
-		waitOn: ->
-			[
-				Meteor.subscribe('items')
-				Meteor.subscribe('categories')
-			]
+		template: 'home'
+		data: ->
+			{
+				items: Items.find(Session.get 'filter').fetch()
+				categories: Categories.find().fetch()
+			}
+		action: ->
+			if @ready()
+				Session.set 'category', @params._id
+				Session.set 'item', null
+				@render()
+
 	@route "item",
 		path: '/item/:_id'
-		waitOn: ->
-			[
-				Meteor.subscribe('items')
-				Meteor.subscribe('categories')
-			]
+		template: 'home'
+		data: ->
+			{
+				items: Items.find(Session.get 'filter').fetch()
+				categories: Categories.find().fetch()
+			}
+		action: ->
+			if @ready()
+				Session.set 'item', @params._id
+				@render()
 	@route "orders",
 		path: '/orders'
 	@route "cart",

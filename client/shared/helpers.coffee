@@ -12,3 +12,6 @@ UI.registerHelper 'Users', ->
 
 UI.registerHelper 'User', ->
 	Meteor.user()
+
+UI.registerHelper 'categoryCount', (_id) ->
+	Items.find(category:_id).fetch().length

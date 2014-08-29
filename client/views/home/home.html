@@ -1,7 +1,40 @@
 <template name="home">
 	<div class="container">
 		<div class="row" id="champion-messages">
-			<h1>Home</h1>
+			<div class="col-md-4">
+				<h3>Categories</h3>
+				{{#if categories}}
+				<ul>
+					<li><a href="{{pathFor 'home'}}">All categories</a></li>
+					{{#each categories}}
+					<li><a href="{{pathFor 'category' _id=_id}}">{{name}} {{categoryCount _id}}</a></li>
+					{{/each}}
+				</ul>
+				{{else}}
+				<p>No categories</p>
+				{{/if}}
+			</div>
+			<div class="col-md-4">
+				<h3>Items</h3>
+				{{#if items}}
+				<ul>
+					{{#each items}}
+					<li><a href="{{pathFor 'item' _id=_id}}">{{name}}</a></li>
+					{{/each}}
+				</ul>
+				{{else}}
+				<p>No items</p>
+				{{/if}}
+			</div>
+			<div class="col-md-4">
+				<h3>Item Detail</h3>
+				{{#if $.Session.get 'item_doc'}}
+				{{#with $.Session.get 'item_doc'}}
+				<h4>{{name}}</h4>
+				{{/with}}
+				{{else}}
+				{{/if}}
+			</div>
 		</div>
 	</div>
 </template>
