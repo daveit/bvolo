@@ -15,6 +15,14 @@
 				{{/if}}
 			</div>
 			<div class="col-md-4 col-xs-4">
+				{{#if $.Session.get 'recent'}}
+				<h3>Recent Items</h3>
+				<ul>
+					{{#each $.Session.get 'recent'}}
+					<li><a href="{{pathFor 'item' _id=_id}}">{{name}}</a></li>
+					{{/each}}
+				</ul>
+				{{/if}}
 				<h3>Items</h3>
 				{{#if items}}
 				<ul>

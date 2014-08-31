@@ -32,5 +32,6 @@ Template.checkout.events
 			console.log r
 			unless e
 				Meteor.call 'alertOrder', r
+				Cart.reset()
 				Router.go 'orders'
 		false

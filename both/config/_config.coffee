@@ -7,6 +7,7 @@ Config =
 	emails:
 		from: 'noreply@' + Meteor.absoluteUrl()
 		notification: 'benjaminpeterjonesesquire@gmail.com'
+	recentDays: 30
 
 if Meteor.isClient
 	window.Config = Config

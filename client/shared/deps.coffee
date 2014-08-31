@@ -1,3 +1,24 @@
+getRecent = ->
+	orders = Orders.find().fetch()
+	recent = []
+	_.each orders, (order)->
+		# console.log new Date().getTime()
+		# console.log order.createdAt.getTime()
+		# console.log order.createdAt.getTime() > (new Date().getTime() - (86400000 * Config.recentDays))
+		if order.createdAt.getTime() > (new Date().getTime() - (86400000 * Config.recentDays))
+			_.each order.orderRows, (orderRow)->
+				if Session.get 'category'
+					# console.log 'category'
+					if Session.equals('category',Items.findOne({_id:orderRow.item}).category)
+						recent.push Items.findOne {_id:orderRow.item}
+				else
+					# console.log 'no category'
+					recent.push Items.findOne {_id:orderRow.item}
+
+				# console.log orderRow
+		# console.log typeof order.createdAt
+	recent
+
 Deps.autorun ->
 		Meteor.subscribe 'items'
 		Meteor.subscribe 'categories'
@@ -13,3 +34,4 @@ Deps.autorun ->
 		else
 			Session.set 'filter', { unavailable: false }
 
+		Session.set 'recent', getRecent()
