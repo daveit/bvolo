@@ -1,7 +1,7 @@
 <template name="home">
 	<div class="container">
 		<div class="row" id="champion-messages">
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-xs-4">
 				<h3>Categories</h3>
 				{{#if categories}}
 				<ul>
@@ -14,7 +14,7 @@
 				<p>No categories</p>
 				{{/if}}
 			</div>
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-xs-4">
 				<h3>Items</h3>
 				{{#if items}}
 				<ul>
@@ -26,7 +26,7 @@
 				<p>No items</p>
 				{{/if}}
 			</div>
-			<div class="col-md-4 col-sm-4">
+			<div class="col-md-4 col-xs-4">
 				{{#if $.Session.get 'item_doc'}}
 				{{#with $.Session.get 'item_doc'}}
 				<h3>{{name}}</h3>
