@@ -17,9 +17,21 @@ AdminConfig =
 		}
 		Orders: {
 			auxCollections: ['Items','Categories']
+			tableColumns: [
+				{label: 'Reference',name:'reference'}
+				{label:'Client',name:'owner',collection:'Users',collection_property: 'companyName'}
+			]
 		}
-		Posts: {}
-		Reports: {}
+		Posts: {
+			tableColumns: [
+				{label: 'Title',name:'title'}
+			]
+		}
+		Reports: {
+			tableColumns: [
+				{label: 'Title',name:'title'}
+			]
+		}
 
 if Meteor.isClient
 	window.AdminConfig = AdminConfig
