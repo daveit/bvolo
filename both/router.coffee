@@ -12,7 +12,7 @@ Router.map ->
 		path: "/"
 		data: ->
 			{
-				items: Items.find({}).fetch()
+				items: Items.find(Session.get 'filter').fetch()
 				categories: Categories.find().fetch()
 			}
 		action: ->
@@ -48,6 +48,12 @@ Router.map ->
 				@render()
 	@route "orders",
 		path: '/orders'
+		waitOn:->
+			[
+				Meteor.subscribe 'orders'
+			]
+		data: ->
+			orders: Orders.find({},{sort:{createdAt: -1}}).fetch()
 	@route "checkout",
 		path: '/checkout'
 	@route "marketReport",

@@ -9,6 +9,6 @@ Deps.autorun ->
 			Session.set 'item_doc', null
 
 		if Session.get 'category'
-			Session.set 'filter', {category: Session.get 'category'}
+			Session.set 'filter', { $and: [ { unavailable: false }, {category: Session.get 'category'} ] }
 		else
-			Session.set 'filter', {}
+			Session.set 'filter', { unavailable: false }

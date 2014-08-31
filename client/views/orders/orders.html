@@ -1,0 +1,41 @@
+<template name="orders">
+	<div class="container">
+		<div class="row" id="champion-messages">
+			<h1>Past Orders</h1>
+			{{#if orders}}
+
+			{{#each orders}}
+			<h3>Order #{{reference}}</h3>
+			<p>Created: <strong>{{prettyDate createdAt}}</strong>
+			<br/>
+			Requested delivery: <strong>{{prettyDate deliverBy}}</strong></p>
+			{{#if orderNumber}}
+			<p>Customer order number: {{orderNumber}}</p>
+			{{/if}}
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Unit</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each orderRows}}
+						<tr>
+							<td>{{docProperty item 'Items' 'name'}}</td>
+							<td>{{quantity}}</td>
+							<td>{{unit}}</td>
+						</tr>
+					{{/each}}
+				</tbody>
+			</table>
+			<hr/>
+			{{/each}}
+			{{else}}
+			<p>No Orders yet</p>
+			<p><a href="{{pathFor 'home'}}" class="btn btn-primary">Go home</a></p>
+			{{/if}}
+		</div>
+	</div>
+</template>

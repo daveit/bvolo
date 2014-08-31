@@ -5,4 +5,4 @@ Meteor.publish 'categories', ->
 	Categories.find()
 
 Meteor.publish 'orders', ->
-	Orders.find()
+	Orders.find {owner: @userId}

@@ -32,5 +32,5 @@ Template.checkout.events
 			console.log r
 			unless e
 				Meteor.call 'alertOrder', r
-				Router.go 'home'
+				Router.go 'orders'
 		false
