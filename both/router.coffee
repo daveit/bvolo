@@ -56,9 +56,23 @@ Router.map ->
 			orders: Orders.find({},{sort:{createdAt: -1}}).fetch()
 	@route "checkout",
 		path: '/checkout'
-	@route "marketReport",
+	@route "marketReports",
 		path: '/reports'
+		waitOn: ->
+			[
+				Meteor.subscribe 'reports'
+			]
+		data: ->
+			reports: Reports.find({},{sort: {createdAt: -1}}).fetch()
 	@route "news",
-		path: '/reports'
+		path: '/news'
+		waitOn: ->
+			[
+				Meteor.subscribe 'posts'
+			]
+		data: ->
+			posts: Posts.find({},{sort: {createdAt: -1}}).fetch()
+	@route "about",
+		path: '/about'
 	@route "profile",
 		path: "/profile"

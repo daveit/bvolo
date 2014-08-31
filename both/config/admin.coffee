@@ -19,6 +19,7 @@ AdminConfig =
 			auxCollections: ['Items','Categories']
 		}
 		Posts: {}
+		Reports: {}
 
 if Meteor.isClient
 	window.AdminConfig = AdminConfig

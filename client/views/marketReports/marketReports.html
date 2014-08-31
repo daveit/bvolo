@@ -1,0 +1,17 @@
+<template name="marketReports">
+	<div class="container">
+		<div class="row" id="champion-messages">
+			<h1>Market Reports</h1>
+			{{#if reports}}
+
+			{{#each reports}}
+			<h3>{{title}}</h3>
+			{{content}}
+			{{/each}}
+			{{else}}
+			<p>No reports yet</p>
+			<p><a href="{{pathFor 'home'}}" class="btn btn-primary">Go home</a></p>
+			{{/if}}
+		</div>
+	</div>
+</template>
