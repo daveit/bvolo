@@ -35,3 +35,6 @@ Deps.autorun ->
 			Session.set 'filter', { unavailable: false }
 
 		Session.set 'recent', getRecent()
+
+		if Meteor.userId() and Router.current().route.name == 'entrySignIn'
+			Router.go 'home'
