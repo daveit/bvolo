@@ -36,6 +36,13 @@ Cart =
 		cart.length
 	orderRows: ->
 		Session.get 'cart'
+	remove: (remove)->
+		cart = Session.get 'cart'
+		_.each cart, (orderRow,i)->
+			if orderRow.item == remove.item && orderRow.unit == remove.unit
+				cart.splice(i,1)
+		Session.set 'cart',cart
+
 
 if Meteor.isClient
 	window.Cart = Cart
@@ -44,5 +51,4 @@ else if Meteor.isServer
 
 
 UI.registerHelper 'Cart', ->
-	console.log Cart
 	Cart

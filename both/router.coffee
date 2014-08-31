@@ -48,8 +48,8 @@ Router.map ->
 				@render()
 	@route "orders",
 		path: '/orders'
-	@route "cart",
-		path: '/cart'
+	@route "checkout",
+		path: '/checkout'
 	@route "marketReport",
 		path: '/reports'
 	@route "news",

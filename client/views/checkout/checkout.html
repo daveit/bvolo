@@ -1,0 +1,32 @@
+<template name="checkout">
+	<div class="container">
+		<div class="row" id="champion-messages">
+			<h1>Confirm Order</h1>
+<!-- 			{{#autoForm id="updateProfile" collection=Users doc=currentUser type="update"}}
+			{{> afQuickField name='profile'}}
+			<button type="submit" class="btn btn-primary">Update</button>
+			{{/autoForm}} -->
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th>Item</th>
+						<th>Quantity</th>
+						<th>Unit</th>
+						<th>Remove</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each Cart.orderRows}}
+						<tr>
+							<td>{{docProperty item 'Items' 'name'}}</td>
+							<td>{{quantity}}</td>
+							<td>{{unit}}</td>
+							<td><button class="btn btn-danger btn-xs remove" data-quantity="{{quantity}}" data-unit="{{unit}}" data-item="{{item}}"><i class="fa fa-times"></i></button></td>
+						</tr>
+					{{/each}}
+				</tbody>
+			</table>
+			<p><button class="btn btn-default">Reset order</button> <button class="btn btn-primary" id="confirm-order">Confirm Order</button></p>
+		</div>
+	</div>
+</template>
