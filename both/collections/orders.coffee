@@ -22,7 +22,7 @@ Schemas.Orders = new SimpleSchema
 	owner:
 		type: String
 		autoValue: ->
-			if this.isInsert
+			if @isInsert
 				console.log 'insert'
 				Meteor.userId()
 		autoform:
@@ -34,6 +34,12 @@ Schemas.Orders = new SimpleSchema
 	orderNumber:
 		type: String
 		optional: true
+
+	createdAt:
+		type: Date
+		autoValue: ->
+			if @isInsert
+				new Date()
 
 	deliverBy:
 		type: Date

@@ -24,7 +24,9 @@ Template.checkout.events
 		order = {}
 		order.owner = Meteor.userId()
 		order.deliverBy = new Date $('[name="deliverBy"]').val()
-		order.comments = $('#comments').val()
+		order.comments = $('[name="comments"]').val()
 		order.orderRows = Session.get 'cart'
 		Orders.insert order, (e,r)->
+			console.log e
+			console.log r
 		false
