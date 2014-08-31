@@ -6,7 +6,7 @@
 
 			{{#each orders}}
 			<h3>Order #{{reference}}</h3>
-			<button class="btn btn-default reorder" data-id="{{_id}}">Reorder</button>
+			{{> reorderButton _id=_id}}
 			<p>Created: <strong>{{prettyDate createdAt}}</strong>
 			<br/>
 			Requested delivery: <strong>{{prettyDate deliverBy}}</strong></p>
