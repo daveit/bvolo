@@ -15,3 +15,6 @@ UI.registerHelper 'User', ->
 
 UI.registerHelper 'categoryCount', (_id) ->
 	Items.find(category:_id).fetch().length
+
+UI.registerHelper 'docProperty', (_id,collection,name)->
+	window[collection].findOne(_id:_id).name
