@@ -8,7 +8,7 @@ Meteor.methods
 		subject = '[#'+order.reference+' - '+user.profile.companyName+'] New customer order'
 
 		html = ""
-		html += 'New order (<a href="'+Meteor.absoluteUrl('admin/Orders' + order._id ) + '">order #' + order.reference + '</a>) - ' + user.profile.companyName + '(ID: ' + user.username + ')'
+		html += 'New order (<a href="'+Meteor.absoluteUrl('admin/Orders' + order._id ) + '">order #' + order.reference + '</a>) - ' + user.profile.companyName + ' (ID: ' + user.username + ')'
 		html += '<br/><br/>'
 		html += 'Delivery expected: ' + dateToDateString order.deliverBy
 		html += '<br/><br/>'
