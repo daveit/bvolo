@@ -17,8 +17,7 @@ UI.registerHelper 'categoryCount', (_id) ->
 	Items.find(category:_id).fetch().length
 
 UI.registerHelper 'docProperty', (_id,collection,name)->
-	window[collection].findOne(_id:_id).name
-
+	docProperty _id, collection, name
 
 UI.registerHelper 'tomorrow', ->
   dateToDateString new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
@@ -26,11 +25,3 @@ UI.registerHelper 'tomorrow', ->
 UI.registerHelper 'prettyDate', (date)->
 	unless !date
 		dateToDateString(date)
-
-dateToDateString = (date) ->
-  m = (date.getMonth() + 1)
-  m = "0" + m  if m < 10
-  d = date.getDate()
-  d = "0" + d  if d < 10
-  date.getFullYear() + "-" + m + "-" + d
-
