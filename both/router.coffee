@@ -10,6 +10,8 @@ Router.map ->
 	
 	@route "home",
 		path: "/"
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		data: ->
 			{
 				items: Items.find(Session.get 'filter').fetch()
@@ -23,6 +25,8 @@ Router.map ->
 	@route "category",
 		path: '/category/:_id'
 		template: 'home'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		data: ->
 			{
 				items: Items.find(Session.get 'filter').fetch()
@@ -37,6 +41,8 @@ Router.map ->
 	@route "item",
 		path: '/item/:_id'
 		template: 'home'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		data: ->
 			{
 				items: Items.find(Session.get 'filter').fetch()
@@ -48,6 +54,8 @@ Router.map ->
 				@render()
 	@route "orders",
 		path: '/orders'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		waitOn:->
 			[
 				Meteor.subscribe 'orders'
@@ -56,8 +64,12 @@ Router.map ->
 			orders: Orders.find({},{sort:{createdAt: -1}}).fetch()
 	@route "checkout",
 		path: '/checkout'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 	@route "marketReports",
 		path: '/reports'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		waitOn: ->
 			[
 				Meteor.subscribe 'reports'
@@ -66,6 +78,8 @@ Router.map ->
 			reports: Reports.find({},{sort: {createdAt: -1}}).fetch()
 	@route "news",
 		path: '/news'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 		waitOn: ->
 			[
 				Meteor.subscribe 'posts'
@@ -74,5 +88,9 @@ Router.map ->
 			posts: Posts.find({},{sort: {createdAt: -1}}).fetch()
 	@route "about",
 		path: '/about'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
 	@route "profile",
 		path: "/profile"
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
