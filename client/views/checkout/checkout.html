@@ -2,10 +2,7 @@
 	<div class="container">
 		<div class="row" id="champion-messages">
 			<h1>Confirm Order</h1>
-<!-- 			{{#autoForm id="updateProfile" collection=Users doc=currentUser type="update"}}
-			{{> afQuickField name='profile'}}
-			<button type="submit" class="btn btn-primary">Update</button>
-			{{/autoForm}} -->
+			{{#if Cart.orderRows}}
 			<table class="table table-striped table-hover">
 				<thead>
 					<tr>
@@ -26,7 +23,13 @@
 					{{/each}}
 				</tbody>
 			</table>
-			<p><button class="btn btn-default">Reset order</button> <button class="btn btn-primary" id="confirm-order">Confirm Order</button></p>
+			<p><button class="btn btn-default" id="reset">Reset order</button>
+
+			<button class="btn btn-primary" id="confirm">Confirm Order</button></p>
+			{{else}}
+			<p>Nothing in basket</p>
+			<p><a href="{{pathFor 'home'}}" class="btn btn-primary">Go home</a></p>
+			{{/if}}
 		</div>
 	</div>
 </template>

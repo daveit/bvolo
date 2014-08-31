@@ -22,3 +22,8 @@ Template.checkout.events
 			unit: unit
 			quantity: quantity
 		Cart.update orderRow
+	'click #reset': ->
+		console.log 'hi'
+		Cart.reset()
+	'click #confirm': ->
+		

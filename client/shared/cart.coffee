@@ -29,8 +29,9 @@ Cart =
 		Session.set 'cart',cart
 	reset: ->
 		cart = Session.get 'cart'
-		cart.orderRows = []
+		cart = []
 		Session.set 'cart',cart
+		Router.go 'home'
 	orderLength: ->
 		cart = Session.get 'cart'
 		cart.length
