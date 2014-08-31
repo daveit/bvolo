@@ -12,3 +12,4 @@ Deps.autorun ->
 			Session.set 'filter', { $and: [ { unavailable: false }, {category: Session.get 'category'} ] }
 		else
 			Session.set 'filter', { unavailable: false }
+
