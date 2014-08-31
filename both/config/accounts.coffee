@@ -8,6 +8,12 @@ if Meteor.isClient
       dashboardRoute: '/'
       profileRoute: 'profile'
       passwordSignupFields: 'USERNAME_AND_EMAIL'
+      extraSignUpFields: [
+      	field: "companyName"
+      	label: "Company Name"
+      	type: "text"
+      	required: true
+      ]
 
 if Meteor.isServer
   Accounts.emailTemplates.siteName = Config.siteName
