@@ -25,6 +25,7 @@
 			</table>
 			{{#autoForm id="checkout_form" collection="Orders"}}
 			{{> afQuickField name='comments'}}
+			{{> afQuickField name='orderNumber'}}
 			{{> afQuickField name='deliverBy' value=tomorrow}}
 			<p><button class="btn btn-default" id="reset">Reset order</button>
 			<button class="btn btn-primary" id="confirm">Confirm Order</button></p>

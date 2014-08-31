@@ -25,8 +25,12 @@ Template.checkout.events
 		order.owner = Meteor.userId()
 		order.deliverBy = new Date $('[name="deliverBy"]').val()
 		order.comments = $('[name="comments"]').val()
+		order.orderNumber = $('[name="orderNumber"]').val()
 		order.orderRows = Session.get 'cart'
 		Orders.insert order, (e,r)->
 			console.log e
 			console.log r
+			unless e
+				Meteor.call 'alertOrder', r
+				Router.go 'home'
 		false
