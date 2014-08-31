@@ -36,6 +36,12 @@ Cart =
 		cart.length
 	orderRows: ->
 		Session.get 'cart'
+	update: (update)->
+		cart = Session.get 'cart'
+		_.each cart, (orderRow,i)->
+			if orderRow.item == update.item && orderRow.unit == update.unit
+				cart[i].quantity = update.quantity
+		Session.set 'cart',cart
 	remove: (remove)->
 		cart = Session.get 'cart'
 		_.each cart, (orderRow,i)->

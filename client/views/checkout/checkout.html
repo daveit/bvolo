@@ -19,7 +19,7 @@
 					{{#each Cart.orderRows}}
 						<tr>
 							<td>{{docProperty item 'Items' 'name'}}</td>
-							<td>{{quantity}}</td>
+							<td><input type="number" class="quantity" data-item="{{item}}" data-unit="{{unit}}" value="{{quantity}}"></td>
 							<td>{{unit}}</td>
 							<td><button class="btn btn-danger btn-xs remove" data-quantity="{{quantity}}" data-unit="{{unit}}" data-item="{{item}}"><i class="fa fa-times"></i></button></td>
 						</tr>

@@ -12,5 +12,13 @@ Template.checkout.events
 			item: item
 			unit: unit
 			quantity: quantity
-		console.log orderRow
 		Cart.remove orderRow
+	'change input.quantity': (e,t) ->
+		item = $(e.currentTarget).data('item')
+		unit = $(e.currentTarget).data('unit')
+		quantity = $(e.currentTarget).val()
+		orderRow =
+			item: item
+			unit: unit
+			quantity: quantity
+		Cart.update orderRow
