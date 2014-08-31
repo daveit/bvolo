@@ -2,8 +2,8 @@ UI.registerHelper 'Config', ->
 	Config
 
 UI.registerHelper 'niceName',->
-	if Meteor.user().profile.firstName
-		Meteor.user().profile.firstName
+	if Meteor.user().profile.companyName
+		Meteor.user().profile.companyName
 	else
 		Meteor.user().emails[0].address
 
