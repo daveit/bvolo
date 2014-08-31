@@ -1,8 +1,3 @@
-# AutoForm.hooks
-# 	updateProfile:
-# 		onSuccess: ->
-# 			Router.go('home')
-
 Template.checkout.events
 	'click .remove': (e,t) ->
 		item = $(e.currentTarget).data('item')
@@ -23,7 +18,13 @@ Template.checkout.events
 			quantity: quantity
 		Cart.update orderRow
 	'click #reset': ->
-		console.log 'hi'
 		Cart.reset()
 	'click #confirm': ->
-		
+		console.log 'ordering'
+		order = {}
+		order.owner = Meteor.userId()
+		order.deliverBy = new Date $('[name="deliverBy"]').val()
+		order.comments = $('#comments').val()
+		order.orderRows = Session.get 'cart'
+		Orders.insert order, (e,r)->
+		false

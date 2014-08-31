@@ -41,8 +41,13 @@ Cart =
 		cart = Session.get 'cart'
 		_.each cart, (orderRow,i)->
 			if orderRow.item == update.item && orderRow.unit == update.unit
-				cart[i].quantity = update.quantity
-		Session.set 'cart',cart
+				console.log update.quantity
+				console.log parseFloat(update.quantity)
+				if !isNaN parseFloat(update.quantity)
+					cart[i].quantity = update.quantity
+					Session.set 'cart',cart
+				else
+					alert 'Not a valid number'
 	remove: (remove)->
 		cart = Session.get 'cart'
 		_.each cart, (orderRow,i)->

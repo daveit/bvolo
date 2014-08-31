@@ -3,7 +3,7 @@
 		<div class="row" id="champion-messages">
 			<h1>Confirm Order</h1>
 			{{#if Cart.orderRows}}
-			<table class="table table-striped table-hover">
+			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th>Item</th>
@@ -16,16 +16,19 @@
 					{{#each Cart.orderRows}}
 						<tr>
 							<td>{{docProperty item 'Items' 'name'}}</td>
-							<td><input type="number" class="quantity" data-item="{{item}}" data-unit="{{unit}}" value="{{quantity}}"></td>
+							<td><input type="number" class="form-control quantity" data-item="{{item}}" data-unit="{{unit}}" value="{{quantity}}"></td>
 							<td>{{unit}}</td>
 							<td><button class="btn btn-danger btn-xs remove" data-quantity="{{quantity}}" data-unit="{{unit}}" data-item="{{item}}"><i class="fa fa-times"></i></button></td>
 						</tr>
 					{{/each}}
 				</tbody>
 			</table>
+			{{#autoForm id="checkout_form" collection="Orders"}}
+			{{> afQuickField name='comments'}}
+			{{> afQuickField name='deliverBy' value=tomorrow}}
 			<p><button class="btn btn-default" id="reset">Reset order</button>
-
 			<button class="btn btn-primary" id="confirm">Confirm Order</button></p>
+			{{/autoForm}}
 			{{else}}
 			<p>Nothing in basket</p>
 			<p><a href="{{pathFor 'home'}}" class="btn btn-primary">Go home</a></p>
