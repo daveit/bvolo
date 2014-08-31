@@ -3,6 +3,7 @@ AdminConfig =
 	fromEmail: 'noreply@app.com'
 	collections :
 		Items: {
+			label: 'Products'
 			tableColumns: [
 				{label: 'Name',name:'name'}
 				{label:'Category',name:'category',collection:'Categories',collection_property: 'name'}
