@@ -1,0 +1,51 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "AdminDashboard",
+      "export": true
+    },
+    {
+      "name": "__coffeescriptShare"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron-router"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "simple-schema"
+    },
+    {
+      "package": "roles"
+    },
+    {
+      "package": "email"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/admin.js",
+      "length": 16247,
+      "offset": 0,
+      "servePath": "/packages/admin.js",
+      "sourceMap": "os/packages/admin.js.map"
+    }
+  ]
+}

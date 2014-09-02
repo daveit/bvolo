@@ -1,0 +1,22 @@
+{
+  "format": "unipackage-pre2",
+  "name": "admin-dashboard",
+  "version": "0.0.0+511367e5cea5eb0c72e23a3db3707a465369ac2e",
+  "earliestCompatibleVersion": "0.0.0",
+  "isTest": false,
+  "unibuilds": [
+    {
+      "arch": "os",
+      "path": "os.json"
+    },
+    {
+      "arch": "web.browser",
+      "path": "web.browser.json"
+    },
+    {
+      "arch": "web.cordova",
+      "path": "web.cordova.json"
+    }
+  ],
+  "plugins": []
+}

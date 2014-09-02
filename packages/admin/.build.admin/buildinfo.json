@@ -1,0 +1,78 @@
+{
+  "builtBy": "meteor/13",
+  "buildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/package.js": "d8086f3a11f3cb49fa3123da99623e073c625ffa",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/AdminDashboard.coffee": "462d678b5f3747af249d98a5dfdb5e91370392a5",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/router.coffee": "799a5334f1c54c0b4e68d7e8e8ed05c627727f0d",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/server/publish.coffee": "ffaa39d6eee5a1b789059ddd6cd3b9cc68009e5e",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/server/methods.coffee": "2a2e63fae4cfeb39680d30441836ac1f8f368ccf"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/package.js": "d8086f3a11f3cb49fa3123da99623e073c625ffa",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/AdminDashboard.coffee": "462d678b5f3747af249d98a5dfdb5e91370392a5",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/router.coffee": "799a5334f1c54c0b4e68d7e8e8ed05c627727f0d",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_templates.html": "1494d65f9cd5fd8c522e9bd1d960047e5a9f98ca",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_widgets.html": "c34519a4e05a146648e16c37e7531d93621bd413",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_layouts.html": "1fc87064e9358df07f712870838b63a96a740a59",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_sidebar.html": "a0be9664843ca4f3fcc6dcbe6b8620b89dfed782",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_header.html": "7164b84d2e8cd4e29741377322d548950af66711",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/css/admin-layout.less": "ce974ed4975b80c7c220ee313854fbcdc5cd19b7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/admin_layout.js": "9a3b099df0fe2e7d505d08fa0bcf4e977c372a7b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/helpers.coffee": "e1ac2885f3fb611e3d3cff6918eab24fa6525e61",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/events.coffee": "e3e0254c08116241b148d173a3a13dfcd59a35e1",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/datatable.js": "b02cd8c0bbc12484596faeec956079876386a66b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/autoForm.coffee": "98b75d8652c70b9b1af65bf35ce693d5af2348e5"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/package.js": "d8086f3a11f3cb49fa3123da99623e073c625ffa",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/AdminDashboard.coffee": "462d678b5f3747af249d98a5dfdb5e91370392a5",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/both/router.coffee": "799a5334f1c54c0b4e68d7e8e8ed05c627727f0d",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_templates.html": "1494d65f9cd5fd8c522e9bd1d960047e5a9f98ca",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_widgets.html": "c34519a4e05a146648e16c37e7531d93621bd413",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_layouts.html": "1fc87064e9358df07f712870838b63a96a740a59",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_sidebar.html": "a0be9664843ca4f3fcc6dcbe6b8620b89dfed782",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/html/admin_header.html": "7164b84d2e8cd4e29741377322d548950af66711",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/css/admin-layout.less": "ce974ed4975b80c7c220ee313854fbcdc5cd19b7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/admin_layout.js": "9a3b099df0fe2e7d505d08fa0bcf4e977c372a7b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/helpers.coffee": "e1ac2885f3fb611e3d3cff6918eab24fa6525e61",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/events.coffee": "e3e0254c08116241b148d173a3a13dfcd59a35e1",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/datatable.js": "b02cd8c0bbc12484596faeec956079876386a66b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin/lib/client/js/autoForm.coffee": "98b75d8652c70b9b1af65bf35ce693d5af2348e5"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/gringo/dev/freelance/bvolo/packages/admin/package.js": "d8086f3a11f3cb49fa3123da99623e073c625ffa"
+    },
+    "directories": []
+  },
+  "source": "/Users/gringo/dev/freelance/bvolo/packages/admin",
+  "buildTimeDirectDependencies": {
+    "session": "1.0.0",
+    "templating": "1.0.4",
+    "coffeescript": "1.0.2",
+    "accounts-base": "1.0.0",
+    "less": "1.0.6",
+    "underscore": "1.0.0",
+    "email": "1.0.2",
+    "simple-schema": "0.0.0+e3b6cc2b7c81813980ea768eeacacdaf3be0e728",
+    "roles": "0.0.0+701915bc8f11d5805c1f8c154a6aeda94932361f",
+    "jquery": "1.0.0",
+    "meteor": "1.0.2",
+    "iron-router": "0.8.2+21060a42e33eb2eea05562f6a9ba0673bba31585",
+    "autoform": "0.0.0+91685688630d3114bd48775e4a9376c5b51ee027"
+  },
+  "buildTimePluginDependencies": {}
+}
