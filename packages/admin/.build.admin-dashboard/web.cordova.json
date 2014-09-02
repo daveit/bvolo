@@ -1,0 +1,79 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "AdminDashboard",
+      "export": true
+    },
+    {
+      "name": "__coffeescriptShare"
+    },
+    {
+      "name": "dataTableOptions"
+    },
+    {
+      "name": "t"
+    },
+    {
+      "name": "pageY"
+    },
+    {
+      "name": "currTop"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron-router"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "simple-schema"
+    },
+    {
+      "package": "roles"
+    },
+    {
+      "package": "less"
+    },
+    {
+      "package": "session"
+    },
+    {
+      "package": "autoform"
+    },
+    {
+      "package": "jquery"
+    }
+  ],
+  "resources": [
+    {
+      "type": "css",
+      "file": "web.cordova/packages/admin-dashboard/lib/client/css/admin-layout.less.css",
+      "length": 97207,
+      "offset": 0,
+      "servePath": "/packages/admin-dashboard/lib/client/css/admin-layout.less.css"
+    },
+    {
+      "type": "prelink",
+      "file": "web.cordova/packages/admin-dashboard.js",
+      "length": 1701505,
+      "offset": 0,
+      "servePath": "/packages/admin-dashboard.js",
+      "sourceMap": "web.cordova/packages/admin-dashboard.js.map"
+    }
+  ]
+}

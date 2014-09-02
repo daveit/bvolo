@@ -1,0 +1,87 @@
+{
+  "builtBy": "meteor/10",
+  "sliceDependencies": {
+    "browser.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/both/AdminDashboard.coffee": "d2a8a20c8c051cf6c6b4f3e53b6c7be58540cbc9",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/both/router.coffee": "57a2d2bc9bb872a21eeb65ffe11e52bfc16bc0b9",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_templates.html": "d744737602f539d62e90b84a3668d21f575a8b23",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_widgets.html": "c34519a4e05a146648e16c37e7531d93621bd413",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_layouts.html": "1fc87064e9358df07f712870838b63a96a740a59",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_sidebar.html": "a0be9664843ca4f3fcc6dcbe6b8620b89dfed782",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_header.html": "7164b84d2e8cd4e29741377322d548950af66711",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/css/admin-layout.less": "ce974ed4975b80c7c220ee313854fbcdc5cd19b7",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/admin_layout.js": "9a3b099df0fe2e7d505d08fa0bcf4e977c372a7b",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/helpers.coffee": "db796d6ceb15523f64dfd13f17dc88e76402c3e7",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/events.coffee": "e3e0254c08116241b148d173a3a13dfcd59a35e1",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/datatable.js": "b02cd8c0bbc12484596faeec956079876386a66b",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/js/autoForm.coffee": "bdcb05e91ad0c7f3763d1bf153e5565eab1fa73f",
+        "/Users/gringo/dev/freelance/champion/packages/iron-router/package.js": "690295d3cea6ce86d857b50cf44f49e6e55edda9",
+        "/Users/gringo/dev/freelance/champion/packages/simple-schema/package.js": "1a27e9681c8b4aecdb1ff5dd8cff3e9f9a84fd0e",
+        "/Users/gringo/dev/freelance/champion/packages/roles/package.js": "098c8f118fac9b8b7a818ee2d2fc22c82be81fd1",
+        "/Users/gringo/dev/freelance/champion/packages/autoform/package.js": "49e1428ad3814ad3bbd3b28e066f407b7a92d2be",
+        "/Users/gringo/dev/freelance/champion/packages/iron-layout/package.js": "c49d19e5f1ffaa29097636a3fd606fbcd6733f5f",
+        "/Users/gringo/dev/freelance/champion/packages/iron-core/package.js": "c5469585a1ad5bbd78c2c1886aed2fe302ad68cd",
+        "/Users/gringo/dev/freelance/champion/packages/iron-dynamic-template/package.js": "621be09484920d56ec2a2f37ba301cb06a814404"
+      },
+      "directories": []
+    },
+    "os.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/both/AdminDashboard.coffee": "d2a8a20c8c051cf6c6b4f3e53b6c7be58540cbc9",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/both/router.coffee": "57a2d2bc9bb872a21eeb65ffe11e52bfc16bc0b9",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/server/publish.coffee": "ffaa39d6eee5a1b789059ddd6cd3b9cc68009e5e",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/server/methods.coffee": "7d3ee0a498caaeb7434eed403d245b4e28ece8d2",
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/server/startup.coffee": "23f81439211db4d011af39b2c2da47b10012070d",
+        "/Users/gringo/dev/freelance/champion/packages/iron-router/package.js": "690295d3cea6ce86d857b50cf44f49e6e55edda9",
+        "/Users/gringo/dev/freelance/champion/packages/simple-schema/package.js": "1a27e9681c8b4aecdb1ff5dd8cff3e9f9a84fd0e",
+        "/Users/gringo/dev/freelance/champion/packages/roles/package.js": "098c8f118fac9b8b7a818ee2d2fc22c82be81fd1",
+        "/Users/gringo/dev/freelance/champion/packages/iron-layout/package.js": "c49d19e5f1ffaa29097636a3fd606fbcd6733f5f",
+        "/Users/gringo/dev/freelance/champion/packages/iron-core/package.js": "c5469585a1ad5bbd78c2c1886aed2fe302ad68cd",
+        "/Users/gringo/dev/freelance/champion/packages/iron-dynamic-template/package.js": "621be09484920d56ec2a2f37ba301cb06a814404"
+      },
+      "directories": []
+    },
+    "tests.browser.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2"
+      },
+      "directories": []
+    },
+    "tests.os.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/gringo/dev/freelance/champion/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2"
+    },
+    "directories": []
+  },
+  "pluginProviderPackages": {
+    "admin-dashboard": "/Users/gringo/dev/freelance/champion/packages/admin-dashboard",
+    "meteor": "/Users/gringo/.meteor/packages/meteor/d06ae22393",
+    "iron-router": "/Users/gringo/dev/freelance/champion/packages/iron-router",
+    "coffeescript": "/Users/gringo/.meteor/packages/coffeescript/52edcd70bc",
+    "accounts-base": "/Users/gringo/.meteor/packages/accounts-base/2b970c2c67",
+    "templating": "/Users/gringo/.meteor/packages/templating/5cf43e2489",
+    "underscore": "/Users/gringo/.meteor/packages/underscore/381c001cdc",
+    "simple-schema": "/Users/gringo/dev/freelance/champion/packages/simple-schema",
+    "roles": "/Users/gringo/dev/freelance/champion/packages/roles",
+    "less": "/Users/gringo/.meteor/packages/less/12bbe45a82",
+    "session": "/Users/gringo/.meteor/packages/session/2356145cc5",
+    "autoform": "/Users/gringo/dev/freelance/champion/packages/autoform",
+    "jquery": "/Users/gringo/.meteor/packages/jquery/2ff5a27117",
+    "iron-layout": "/Users/gringo/dev/freelance/champion/packages/iron-layout",
+    "iron-core": "/Users/gringo/dev/freelance/champion/packages/iron-core",
+    "iron-dynamic-template": "/Users/gringo/dev/freelance/champion/packages/iron-dynamic-template",
+    "email": "/Users/gringo/.meteor/packages/email/d460128220"
+  },
+  "source": "/Users/gringo/dev/freelance/champion/packages/admin-dashboard"
+}
