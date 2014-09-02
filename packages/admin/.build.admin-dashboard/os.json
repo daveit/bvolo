@@ -1,0 +1,51 @@
+{
+  "format": "unipackage-unibuild-pre1",
+  "packageVariables": [
+    {
+      "name": "AdminDashboard",
+      "export": true
+    },
+    {
+      "name": "__coffeescriptShare"
+    }
+  ],
+  "uses": [
+    {
+      "package": "meteor"
+    },
+    {
+      "package": "iron-router"
+    },
+    {
+      "package": "coffeescript"
+    },
+    {
+      "package": "accounts-base"
+    },
+    {
+      "package": "templating"
+    },
+    {
+      "package": "underscore"
+    },
+    {
+      "package": "simple-schema"
+    },
+    {
+      "package": "roles"
+    },
+    {
+      "package": "email"
+    }
+  ],
+  "resources": [
+    {
+      "type": "prelink",
+      "file": "os/packages/admin-dashboard.js",
+      "length": 17724,
+      "offset": 0,
+      "servePath": "/packages/admin-dashboard.js",
+      "sourceMap": "os/packages/admin-dashboard.js.map"
+    }
+  ]
+}

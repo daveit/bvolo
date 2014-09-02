@@ -10,14 +10,12 @@ getRecent = ->
 				if Session.get 'category'
 					# console.log 'category'
 					if Session.equals('category',Items.findOne({_id:orderRow.item}).category)
-						recent.push Items.findOne {_id:orderRow.item}
+						recent.push orderRow.item
 				else
-					# console.log 'no category'
-					recent.push Items.findOne {_id:orderRow.item}
-
-				# console.log orderRow
-		# console.log typeof order.createdAt
-	recent
+					recent.push orderRow.item
+	recent = _.uniq recent
+	recent.map (_id)->
+		Items.findOne {_id:_id}
 
 Deps.autorun ->
 		Meteor.subscribe 'items'

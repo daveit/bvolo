@@ -1,0 +1,38 @@
+<template name="order">
+	<div class="container">
+		<div class="row" id="champion-messages">
+			<div class="col-md-12">
+				{{#with order}}
+				<h3>Order #{{reference}}</h3>
+				{{> reorderButton _id=_id}}
+				<br/>
+				<br/>
+				<p>Created: <strong>{{prettyDate createdAt}}</strong>
+				<br/>
+				Requested delivery: <strong>{{prettyDate deliverBy}}</strong></p>
+				{{#if orderNumber}}
+				<p>Customer order number: {{orderNumber}}</p>
+				{{/if}}
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>Item</th>
+							<th>Quantity</th>
+							<th>Unit</th>
+						</tr>
+					</thead>
+					<tbody>
+						{{#each orderRows}}
+							<tr>
+								<td><a href="{{pathFor 'item' _id=item}}">{{docProperty item 'Items' 'name'}}</a></td>
+								<td>{{quantity}}</td>
+								<td>{{unit}}</td>
+							</tr>
+						{{/each}}
+					</tbody>
+				</table>
+				{{/with}}
+			</div>
+		</div>
+	</div>
+</template>

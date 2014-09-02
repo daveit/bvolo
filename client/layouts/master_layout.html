@@ -28,9 +28,8 @@
 					{{/if}}
 					<li><a href="{{pathFor 'home'}}">Products</a></li> 
 					<li><a href="{{pathFor 'orders'}}">Orders</a></li>
-					<li><a href="{{pathFor 'marketReports'}}">Market Reports</a></li>
-					<li><a href="{{pathFor 'news'}}">News</a></li>
-					<li><a href="{{pathFor 'about'}}">About</a></li>
+					{{#if Cart.orderRows}}
+					{{/if}}
 					<li class="dropdown hidden-xs" id="cart-dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-shopping-cart"></i> {{Cart.orderLength}} <i class="fa fa-chevron-down i-xs"></i></a>
 						<ul class="dropdown-menu">
@@ -48,14 +47,12 @@
 									</tbody>
 								</table>
 							</li>
-							<li class="divider"></li>
-							<li><a href="{{pathFor 'checkout'}}">Checkout</a></li>
 							{{else}}
 							<li><a>Basket empty</a></li>
 							{{/if}}
 						</ul>
 					</li>
-
+					<li><a href="{{pathFor 'checkout'}}">Checkout</a></li>
 					<li class="dropdown hidden-xs">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">{{niceName}} <i class="fa fa-chevron-down i-xs"></i></a>
 						<ul class="dropdown-menu">
@@ -64,25 +61,21 @@
 							<li><a href="/sign-out">Logout</a></li>
 						</ul>
 					</li>
-
-					<li class="visible-xs">
-						<a href="{{pathFor 'profile'}}" class="close-navbar">Edit profile</a>
-					</li>
-					<li class="visible-xs">
-						<a class="close-navbar" href="/sign-out">Sign out</a>
+					<li class="dropdown hidden-xs">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{pathFor 'marketReports'}}">Market Reports</a></li>
+						<li><a href="{{pathFor 'news'}}">News</a></li>
+						<li><a href="{{pathFor 'about'}}">About</a></li>
+						</ul>
 					</li>
 
 				</ul>
 				{{else}}
 				<ul class="nav navbar-nav navbar-right">
-					
-					<li>
-						<a class="close-navbar" href="/sign-up">Sign up</a>
-					</li>
 					<li>
 						<a class="close-navbar" href="/sign-in">Log in</a>
 					</li>
-					
 				</ul>
 				{{/if}}
 			</div>

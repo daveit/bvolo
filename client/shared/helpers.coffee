@@ -14,7 +14,7 @@ UI.registerHelper 'User', ->
 	Meteor.user()
 
 UI.registerHelper 'categoryCount', (_id) ->
-	Items.find(category:_id).fetch().length
+	Items.find({ $and: [{category:_id},{unavailable:false}]}).fetch().length
 
 UI.registerHelper 'docProperty', (_id,collection,name)->
 	docProperty _id, collection, name

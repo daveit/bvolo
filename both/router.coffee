@@ -62,6 +62,16 @@ Router.map ->
 			]
 		data: ->
 			orders: Orders.find({},{sort:{createdAt: -1}}).fetch()
+	@route "order",
+		path: '/orders/:_id'
+		onBeforeAction:  ()->
+			AccountsEntry.signInRequired(this)
+		waitOn:->
+			[
+				Meteor.subscribe 'orders'
+			]
+		data: ->
+			order: Orders.findOne {_id:@params._id}
 	@route "checkout",
 		path: '/checkout'
 		onBeforeAction:  ()->

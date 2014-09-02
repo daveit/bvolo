@@ -3,9 +3,47 @@
 		<div class="row" id="champion-messages">
 			<h1>Past Orders</h1>
 			{{#if orders}}
-
-			{{#each orders}}
-			<h3>Order #{{reference}}</h3>
+			<table class="table table-striped table-hover">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Date</th>
+						<th>Deliver by</th>
+						<th>Customer Order No.</th>
+						<th>Items</th>
+						<th>Reorder</th>
+						<th>View</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{#each orders}}
+					<tr>
+						<td>{{reference}}</td>
+						<td>{{prettyDate createdAt}}</td>
+						<td>{{prettyDate deliverBy}}</td>
+						<td>{{orderNumber}}</td>
+						<td>
+							<div class="dropdown">
+							  <button class="btn btn-default dropdown-toggle" type="button" id="{{_id}}" data-toggle="dropdown">
+							     items
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu" role="menu" aria-labelledby="{{_id}}">
+							  {{#each orderRows}}
+								<li>
+									<a href="{{pathFor 'item' _id=item}}">{{docProperty item 'Items' 'name'}} ({{quantity}} {{unit}})</a>
+								</li>
+								{{/each}}
+							  </ul>
+							</div>
+						</td>
+						<td>{{> reorderButton _id=_id}}</td>
+						<td><a class="btn btn-primary" href="{{pathFor 'order' _id=_id}}">Details</a></td>
+					</tr>
+					{{/each}}
+				</tbody>
+			</table>
+<!-- 		<h3>Order #{{reference}}</h3>
 			{{> reorderButton _id=_id}}
 			<p>Created: <strong>{{prettyDate createdAt}}</strong>
 			<br/>
@@ -32,7 +70,7 @@
 				</tbody>
 			</table>
 			<hr/>
-			{{/each}}
+			{{/each}} -->
 			{{else}}
 			<p>No Orders yet</p>
 			<p><a href="{{pathFor 'home'}}" class="btn btn-primary">Go home</a></p>

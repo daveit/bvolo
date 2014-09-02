@@ -1,0 +1,951 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"collection",
+				"collection_property"
+			],
+			[
+				"Liba",
+				"Libraries"
+			],
+			[
+				"Lib",
+				"Libraries"
+			],
+			[
+				"addT",
+				"addToGlobal"
+			],
+			[
+				"Sc",
+				"Schemas"
+			],
+			[
+				"atta",
+				"attachmentsS3"
+			],
+			[
+				"images",
+				"imagesS3"
+			],
+			[
+				"em",
+				"emailTemplates"
+			],
+			[
+				"get",
+				"getTemplate"
+			],
+			[
+				"autoform",
+				"autoform-file"
+			],
+			[
+				"file",
+				"fileObj"
+			],
+			[
+				"image",
+				"imageStore"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "lib/server/methods.coffee",
+			"settings":
+			{
+				"buffer_size": 2806,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"bs3 mod",
+				"Snippet: bs3-modal"
+			],
+			[
+				"snippet modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Disable Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"isntall ",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gringo/dev/meteor/admin"
+	],
+	"file_history":
+	[
+		"/Users/gringo/dev/meteor/admin/lib/client/js/datatable.js",
+		"/Users/gringo/dev/meteor/admin/admin.sublime-project",
+		"/Users/gringo/dev/meteor/admin/lib/client/html/admin_templates.html",
+		"/Users/gringo/dev/meteor/admin/lib/both/router.coffee",
+		"/Users/gringo/dev/meteor/admin/.gitignore",
+		"/Users/gringo/dev/meteor/admin/lib/client/js/helpers.coffee",
+		"/Users/gringo/dev/meteor/admin/package.js",
+		"/Users/gringo/dev/meteor/admin/.build.admin/os/packages/admin.js",
+		"/Users/gringo/dev/meteor/admin/lib/client/html/admin_sidebar.html",
+		"/Users/gringo/dev/meteor/admin/.build.admin/os/packages/admin.js.map",
+		"/Users/gringo/dev/meteor/admin/lib/server/methods.coffee",
+		"/Users/gringo/dev/meteor/admin/.build.admin/web.browser/packages/admin/lib/client/css/admin-layout.less.css",
+		"/Users/gringo/dev/meteor/admin/README.md",
+		"/Users/gringo/dev/meteor/admin/smart.json",
+		"/Users/gringo/dev/meteor/admin/lib/client/js/slim_scroll.js",
+		"/Users/gringo/dev/meteor/admin/lib/server/publish.coffee",
+		"/Users/gringo/dev/meteor/admin/lib/both/AdminDashboard.coffee",
+		"/Users/gringo/dev/meteor/admin/lib/client/js/autoForm.coffee",
+		"/Users/gringo/dev/meteor/admin/.build.admin-dashboard/web.browser.json",
+		"/Users/gringo/dev/meteor/admin/.build.admin-dashboard/unipackage.json",
+		"/Users/gringo/dev/meteor/admin/lib/server/startup.coffee",
+		"/Users/gringo/dev/meteor/admin/.build.admin-dashboard/web.cordova.json",
+		"/Users/gringo/dev/meteor/admin/.build.admin-dashboard/os/packages/admin-dashboard.js",
+		"/Users/gringo/dev/freelance/bvolo/.meteor/local/build/programs/ctl/node_modules/npm/scripts/clean-old.sh",
+		"/Users/gringo/dev/freelance/bvolo/both/config/config.coffee",
+		"/Users/gringo/dev/freelance/bvolo/both/collections/posts.coffee",
+		"/Users/gringo/dev/freelance/bvolo/both/collections/users.coffee",
+		"/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/package.js",
+		"/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/AdminDashboard.coffee",
+		"/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/admin_layout.js",
+		"/Users/gringo/dev/freelance/bvolo/packages/autoform/api.md",
+		"/Users/gringo/dev/freelance/bvolo/.meteor/local/build/programs/ctl/node_modules/phantomjs/node_modules/unzip/node_modules/binary/node_modules/chainsaw/examples/add_do.js",
+		"/Users/gringo/dev/freelance/bvolo/.meteor/local/build/programs/ctl/npm/mongo-livedata/node_modules/mongodb/examples/admin.js",
+		"/Users/gringo/dev/freelance/bvolo/client/views/home/home.html",
+		"/Users/gringo/dev/freelance/bvolo/client/shared/helpers.coffee",
+		"/Users/gringo/dev/freelance/bvolo/client/layouts/master_layout.html",
+		"/Users/gringo/dev/freelance/bvolo/both/router.coffee",
+		"/Users/gringo/dev/freelance/bvolo/client/shared/loading.html",
+		"/Users/gringo/dev/freelance/bvolo/both/config/_libraries.coffee",
+		"/Users/gringo/dev/freelance/bvolo/client/views/profile/profile.html",
+		"/Users/gringo/dev/freelance/bvolo/both/config/_utilities.coffee",
+		"/Users/gringo/dev/freelance/bvolo/both/collections/_schemas.coffee",
+		"/Users/gringo/dev/freelance/bvolo/.meteor/local/build/programs/ctl/node_modules/semver/foot.js",
+		"/Users/gringo/dev/freelance/bvolo/packages/fontawesome4/font-awesome-overrides.css",
+		"/Users/gringo/dev/freelance/bvolo/packages/autoform/form-preserve.js",
+		"/Users/gringo/dev/freelance/bvolo/config.coffee",
+		"/Users/gringo/dev/freelance/bvolo/both/config/config.js",
+		"/Users/gringo/dev/freelance/bvolo/smart.json",
+		"/Users/gringo/dev/freelance/bvolo/packages/blaze-layout/History.md",
+		"/Users/gringo/dev/freelance/bvolo/client/layouts/bootstrap.less",
+		"/Users/gringo/dev/freelance/bvolo/client/views/home/test.jade",
+		"/Users/gringo/dev/freelance/bvolo/client/views/home/home.jade",
+		"/Users/gringo/dev/freelance/bvolo/client/views/home/template(name=\"home\")",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-routes/publish.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-helpers/lib/client/helpers.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/images.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/client/helpers.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/master_layout.html",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/master_layout.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/attachments.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-config/app-config.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/allow.coffee",
+		"/Users/gringo/dev/freelance/champion/smart.json",
+		"/Users/gringo/dev/freelance/champion/packages/cfs-gridfs/gridfs.client.js",
+		"/Users/gringo/dev/freelance/champion/smart.lock",
+		"/Users/gringo/dev/freelance/champion/packages/app-manage-challenger/lib/client/manage-challenger.html",
+		"/Users/gringo/dev/freelance/champion/packages/handlebar-helpers/helpers.operators.js",
+		"/Users/gringo/dev/freelance/champion/packages/simple-form/helper.js",
+		"/Users/gringo/dev/freelance/champion/packages/less-bootstrap-3/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/underscore-string-latest/lib/underscore.string/Gemfile.lock",
+		"/Users/gringo/dev/freelance/champion/packages/underscore-string-latest/lib/underscore.string/Gemfile",
+		"/Users/gringo/dev/freelance/champion/packages/cfs-graphicsmagick/gm.js",
+		"/Users/gringo/dev/freelance/champion/packages/data-man/server/data-man-readstream.js",
+		"/Users/gringo/dev/freelance/champion/packages/http-methods/http.methods.server.api.js",
+		"/Users/gringo/dev/freelance/champion/packages/http-methods/http.methods.tests.js",
+		"/Users/gringo/dev/freelance/champion/README.md",
+		"/Users/gringo/dev/freelance/champion/packages/.gitignore",
+		"/Users/gringo/dev/freelance/champion/packages/underscore-string-latest/lib/underscore.string/package.json",
+		"/Users/gringo/dev/freelance/champion/packages/http-publish/http.publish.client.api.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-home/client/home.html",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/client/views/signUp/extraSignUpFields.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/less-bootstrap-3/lib/less/mixins/nav-vertical-align.import.less",
+		"/Users/gringo/dev/freelance/champion/packages/iron-core/versions.json",
+		"/Users/gringo/dev/freelance/champion/packages/app-routes/routes.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/master_layout.less",
+		"/Users/gringo/dev/freelance/champion/packages/app-champion-detail/client/champion-detail.html",
+		"/Users/gringo/dev/freelance/champion/packages/app-profile/lib/client/profile.html",
+		"/Users/gringo/dev/freelance/champion/packages/cfs-filesaver/FileSaver.js",
+		"/Users/gringo/dev/freelance/champion/packages/cfs-collection-filters/filters.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/flatly.less",
+		"/Users/gringo/dev/freelance/champion/packages/app-manage-challenger/lib/client/manage-challenger.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/challengers.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-comment-sidebar/client/comment-sidebar.html",
+		"/Users/gringo/dev/freelance/champion/packages/app-comment-sidebar/client/comment-sidebar.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/less-bootstrap-3/lib/less/mixins/alerts.import.less",
+		"/Users/gringo/dev/freelance/champion/packages/numeral/numeral/tests/numeral/manipulate.js",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/shared/router.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-config/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-config/emails.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-collections/champions.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/CHANGELOG.md",
+		"/Users/gringo/dev/freelance/champion/packages/app-champion-detail/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/shared.html",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/lib/client/shared.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/app-layouts/package.js",
+		"/Users/gringo/dev/freelance/champion/packages/admin-dashboard/lib/client/html/admin_layouts.html",
+		"/Users/gringo/dev/freelance/champion/packages/blaze-layout/layout.js",
+		"/Users/gringo/dev/freelance/champion/packages/blaze-layout/layout-test.html",
+		"/Users/gringo/dev/freelance/champion/packages/accounts-entry/LICENSE",
+		"/Users/gringo/dev/freelance/champion/packages/moment/lib/moment/test/moment/week_year.js",
+		"/Users/gringo/dev/freelance/champion/packages/app-profile/lib/client/profile.coffee",
+		"/Users/gringo/dev/freelance/champion/packages/iron-dynamic-template/examples/basic/app.html",
+		"/Users/gringo/dev/freelance/champion/packages/blaze-layout/overrides.js",
+		"/Users/gringo/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/gringo/dev/freelance/champion/packages/autoform-file/lib/client/autoform-file.coffee",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-manage-challenger/lib/client/manage-challenger.html",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-layouts/lib/client/master_layout.less",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-layouts/lib/client/master_layout.coffee",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-layouts/lib/client/master_layout.html",
+		"/Users/gringo/dev/freelance/champion/app/packages/moment/lib/moment/test/moment/preparse_postformat.js",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-collections/allow.coffee",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-config/app-config.coffee",
+		"/Users/gringo/dev/freelance/champion/app/packages/iron-dynamic-template/examples/basic/app.html",
+		"/Users/gringo/dev/freelance/champion/app/packages/app-profile/lib/client/profile.less",
+		"/Users/gringo/dev/freelance/champion/app/packages/handlebar-helpers/helpers_tests.js",
+		"/Users/gringo/dev/freelance/champion/app/packages/handlebar-helpers/helpers_tests.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"	",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"this.",
+			"ready",
+			"Schema",
+			"AdminDashboard",
+			"AdminSchemas",
+			"admin_table_value",
+			"console.log",
+			"admin_update",
+			"adminEditUser",
+			"User",
+			"Edit",
+			"adminTemplate",
+			"adminGetSkin",
+			"Config",
+			"champions",
+			"Champions",
+			"Schema",
+			"cfs-gridfs",
+			"grid",
+			"gridFS",
+			"UI.registerHelper 'users_collection', ->\n	Meteor.users\n\nUI.registerHelper 'getProfile',->\n	Schemas.UserProfile\n\nUI.registerHelper 'userNiceName',->\n	if Meteor.user() and Meteor.user().profile\n		if Meteor.user().profile.firstName && Meteor.user().profile.lastName\n			Meteor.user().profile.firstName + ' ' +  Meteor.user().profile.lastName\n		else\n			Meteor.user().emails[0].address\n\nUI.registerHelper 'parseFile', (file,embed)->\n	html = null\n	if file.length == 17\n		type = Attachments.findOne({_id:file}).type()\n		file = Attachments.findOne({_id:file}).url()\n	filename = file.toLowerCase()\n	if filename.indexOf('youtube.com') > -1\n		file = file.split('watch?v=')[1].substring(0,11)\n		file = '//www.youtube.com/embed/' + file + '?rel=0&showinfo=0'\n		html = '<div class=\"embed-responsive embed-responsive-4by3\"><iframe width=\"300\" height=\"200\" src=\"'+file+'\" frameborder=\"0\" allowfullscreen></iframe></div>'\n	else if filename.indexOf('vimeo.com') > -1\n		# <iframe src=\"//player.vimeo.com/video/84802749\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href=\"http://vimeo.com/84802749\">Kayden + Rain</a> from <a href=\"http://vimeo.com/nicolebyon\">Nicole Byon</a> on <a href=\"https://vimeo.com\">Vimeo</a>.</p>\n		file = file.replace( /^\\D+/g, '');\n		html = '<div class=\"embed-responsive embed-responsive-4by3\"><iframe src=\"//player.vimeo.com/video/'+file+'\" width=\"500\" height=\"281\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'\n	else if filename.indexOf('.avi') > -1 || filename.indexOf('.mov') > -1 || filename.indexOf('.mp4') > -1\n		html = '<video controls><source src=\"'+file+'\">Sorry, your browser doesn\\'t support embedded videos, \n  but don\\'t worry, you can <a href=\"'+file+'\">download it</a> and watch it with your favorite video player!</video>'\n		if embed\n			html = '<div class=\"embed-responsive embed-responsive-4by3\">' + html + '</div>'\n	html\nUI.registerHelper 'getUser', (_id)->\n	Meteor.users.findOne({_id:_id})\n\nUI.registerHelper 'userUpvoted', (_id)->\n	typeof Challengers.findOne({_id:_id}).upvotes != 'undefined' && Challengers.findOne({_id:_id}).upvotes.indexOf(Meteor.userId()) > -1\n\nUI.registerHelper 'profileProperty', (_id,property) ->\n  Meteor.users.findOne({_id:_id}).profile[property] if typeof Meteor.users.findOne({_id:_id}) != 'undefined'\n\nUI.registerHelper 'getComments', (_id)->\n  Comments.find({message:_id},{sort: {createdAt: -1}}).fetch()\n\nUI.registerHelper 'getCommentsCount', (_id)->\n  count = Comments.find({message:_id}).fetch().length\n  if count == 1 \n    string = 'comment'\n  else\n    string = 'comments'\n  count + ' ' + string\n\nUI.registerHelper 'prettyDate', (date)->\n  moment(date).format(\"MMMM Do YYYY\");\n\nUI.registerHelper 'isOwner', (_id)->\n	if Meteor.userId()\n		Meteor.userId() == Challengers.findOne({_id:_id}).owner\n\nUI.registerHelper 'attachmentIcon', (attachment)->\n	'fa-file-powerpoint-o'\n\nUI.registerHelper 'profileImageSrc', (userId)->\n	image = Meteor.users.findOne({_id:userId}).profile.image\n	if image.indexOf('/') == -1\n		Images.findOne({_id:image}).url()\n	else\n		image\n\nUI.registerHelper 'adminTemplate', (collection,mode)->\n	if collection.toLowerCase() != 'users' && typeof AdminConfig.collections[collection].templates != 'undefined'\n		AdminConfig.collections[collection].templates[mode]\n\nUI.registerHelper 'attachmentData', (file) ->\n	if file.length == 17\n		file = Attachments.findOne({_id:file}).url()\n\n	filename = file.toLowerCase()\n\n	icon = 'file-o'\n	if filename.indexOf('youtube.com') > -1\n		icon = 'youtube'\n	else if filename.indexOf('vimeo.com') > -1\n		icon = 'vimeo-square'\n	else if filename.indexOf('.pdf') > -1\n		icon = 'file-pdf-o'\n	else if filename.indexOf('.doc') > -1 || filename.indexOf('.docx') > -1\n		icon = 'file-word-o'\n	else if filename.indexOf('.ppt') > -1\n		icon = 'file-powerpoint-o'\n	else if filename.indexOf('.avi') > -1 || filename.indexOf('.mov') > -1 || filename.indexOf('.mp4') > -1\n		icon = 'file-movie-o'\n	else if filename.indexOf('.jpg') > -1 || filename.indexOf('.png') > -1 || filename.indexOf('.gif') > -1\n		icon = 'file-image-o'\n	else if filename.indexOf('http://') > -1 || filename.indexOf('https://') > -1\n		icon = 'link'\n	icon\n\n	template = 'attachmentThumbIcon'\n	data =\n		icon: icon\n		src: file\n	obj =\n		template: template\n		data: data\n\nUI.registerHelper 'profileComplete', ->\n\n	fields = [\n		'firstName'\n		'lastName'\n		'position'\n		'image'\n	]\n\n	profile = Meteor.user().profile\n\n	# _.each fields, (field)->\n	# 	if !profile[field] || profile[field] == ''\n	_.every fields, (field)->\n		profile[field] && profile[field] != ''\n",
+			"parseFile",
+			"close-navbar",
+			".close-navbar",
+			"close-navbar",
+			"championbuck",
+			"grid",
+			"Images",
+			"ImaGES",
+			".table",
+			"attachments-x",
+			"close-navbar",
+			"min",
+			"10px 6px",
+			"comment-sidebar-close",
+			"close-navba",
+			"open-sidebar",
+			"comment-sidebar-background",
+			"close-sidebar",
+			"open-sidebar",
+			"CommentSidebar",
+			"comment",
+			"See the discussion",
+			"{{title}}",
+			"Comments",
+			"margin-top: 6px;",
+			"pencil",
+			"See the discussion",
+			"embed",
+			"name=\"Attachment",
+			"modal",
+			"parseFile",
+			"AdminDashboard = ",
+			"console.log",
+			"tab",
+			"fileUpload",
+			"extension.",
+			"icon:",
+			"file.i",
+			"file",
+			"fileUpload",
+			"-id",
+			"collection",
+			"youtube",
+			"src",
+			"e",
+			"data",
+			".admin-layout a",
+			")\n",
+			"refreshFileInput",
+			"hidden",
+			"profileImage",
+			")",
+			"{{field}}",
+			"file-input=\"file\"",
+			"\">",
+			"nav-tabs",
+			"images",
+			"Images",
+			"Handlebars.",
+			"template",
+			"btn",
+			"thumbnail",
+			"  ",
+			"Attachments",
+			"/>\n",
+			"AdminConfig",
+			"admin-delete-modal",
+			"<a href=\"#afModal\" class=\"btn btn-primary btn-xs\" collection=\"Challengers\" doc=\"{{_id}}\" operation=\"update\" omitFields=\"createdAt,updatedAt,owner,upvotes,upvoteCount\">Edit</a>\n			<a href=\"#afModal\" class=\"btn btn-danger btn-xs\" collection=\"Challengers\" doc=\"{{_id}}\" operation=\"remove\">Delete</a>",
+			"Edit",
+			"CollectionModalButton"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@",
+			"AdminConfig",
+			"posts",
+			"Posts",
+			"commentSidebar",
+			"Participate",
+			"file.",
+			"icon =",
+			"{{name}}-upload",
+			"extension.i",
+			"extension",
+			"{{name}}-upload",
+			"{{name}}",
+			"file-input=\"{{field}}\"",
+			"nav-pills",
+			"attachments",
+			"Attachments",
+			"UI.",
+			"	",
+			"Images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "lib/server/methods.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2014,
+								2014
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "admin.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"methods",
+				"lib/server/methods.coffee"
+			],
+			[
+				"router",
+				"lib/both/router.coffee"
+			],
+			[
+				"hel",
+				"lib/client/js/helpers.coffee"
+			],
+			[
+				"route",
+				"lib/both/router.coffee"
+			],
+			[
+				"pack",
+				"package.js"
+			],
+			[
+				"helpers",
+				"lib/client/js/helpers.coffee"
+			],
+			[
+				"admintempl",
+				"lib/client/html/admin_templates.html"
+			],
+			[
+				"temlates",
+				"lib/client/html/admin_templates.html"
+			],
+			[
+				"method",
+				"lib/server/methods.coffee"
+			],
+			[
+				"startup",
+				"lib/server/startup.coffee"
+			],
+			[
+				"con",
+				"both/config/config.coffee"
+			],
+			[
+				"home.html",
+				"client/views/home/home.html"
+			],
+			[
+				"smart",
+				"smart.json"
+			],
+			[
+				"appconfig",
+				"packages/app-config/app-config.coffee"
+			],
+			[
+				"attachments",
+				"packages/app-collections/attachments.coffee"
+			],
+			[
+				"images",
+				"packages/app-collections/images.coffee"
+			],
+			[
+				"smart.",
+				"smart.json"
+			],
+			[
+				"profile",
+				"packages/app-profile/lib/client/profile.html"
+			],
+			[
+				"allow",
+				"packages/app-collections/allow.coffee"
+			],
+			[
+				"manage",
+				"packages/app-manage-challenger/lib/client/manage-challenger.html"
+			],
+			[
+				"home",
+				"packages/app-home/client/home.html"
+			],
+			[
+				"championdet",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"master",
+				"packages/app-layouts/lib/client/master_layout.html"
+			],
+			[
+				"masterlayou",
+				"packages/app-layouts/lib/client/master_layout.html"
+			],
+			[
+				"commentside",
+				"packages/app-comment-sidebar/client/comment-sidebar.html"
+			],
+			[
+				"championdetail",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"routes",
+				"packages/app-routes/routes.coffee"
+			],
+			[
+				"smar.json",
+				"smart.json"
+			],
+			[
+				"challene",
+				"packages/app-collections/challengers.coffee"
+			],
+			[
+				"champions",
+				"packages/app-collections/champions.coffee"
+			],
+			[
+				"challengers",
+				"packages/app-collections/challengers.coffee"
+			],
+			[
+				"layoutspackage",
+				"packages/app-layouts/package.js"
+			],
+			[
+				"masterlayout",
+				"packages/app-layouts/lib/client/master_layout.html"
+			],
+			[
+				"share",
+				"packages/app-layouts/lib/client/shared.html"
+			],
+			[
+				"apphelpershelper",
+				"packages/app-helpers/lib/client/helpers.coffee"
+			],
+			[
+				"commentsid",
+				"packages/app-comment-sidebar/client/comment-sidebar.html"
+			],
+			[
+				"masterlayout.less",
+				"packages/app-layouts/lib/client/master_layout.less"
+			],
+			[
+				"autoformfile",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"helpershelpers",
+				"packages/app-helpers/lib/client/helpers.coffee"
+			],
+			[
+				"autoform-file",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"managechal",
+				"packages/app-manage-challenger/lib/client/manage-challenger.less"
+			],
+			[
+				"championd",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"autoform-filehtml",
+				"packages/autoform-file/lib/client/autoform-file.html"
+			],
+			[
+				"autoform-coffee",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"championde",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"publish",
+				"packages/app-routes/publish.coffee"
+			],
+			[
+				"admincust",
+				"packages/app-admin-custom/lib/client/admin-custom.html"
+			],
+			[
+				"admin",
+				"packages/admin-dashboard/lib/client/js/admin_layout.js"
+			],
+			[
+				"challenger",
+				"packages/app-collections/challengers.coffee"
+			],
+			[
+				"admincustom",
+				"packages/app-admin-custom/lib/client/admin-custom.html"
+			],
+			[
+				"championdeetail",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"admindashboar",
+				"packages/admin-dashboard/lib/both/AdminDashboard.coffee"
+			],
+			[
+				"admindahsroute",
+				"packages/admin-dashboard/lib/both/router.coffee"
+			],
+			[
+				"admindashboardrout",
+				"packages/admin-dashboard/lib/both/router.coffee"
+			],
+			[
+				"admincustom.coffee",
+				"packages/app-admin-custom/lib/client/admin-custom.coffee"
+			],
+			[
+				"admindashboardclientcoffee",
+				"packages/admin-dashboard/lib/client/js/autoForm.coffee"
+			],
+			[
+				"autoform-file.coffee",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"admindashboardrote",
+				"packages/admin-dashboard/lib/both/router.coffee"
+			],
+			[
+				"appconf",
+				"packages/app-config/app-config.coffee"
+			],
+			[
+				"adminlayout.less",
+				"packages/admin-dashboard/lib/client/css/admin-layout.less"
+			],
+			[
+				"autoformfile.coff",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"autforom-file.cof",
+				"packages/autoform-file/lib/client/autoform-file.coffee"
+			],
+			[
+				"autofrom-file",
+				"packages/autoform-file/lib/client/autoform-file.html"
+			],
+			[
+				"adminlay",
+				"packages/admin-dashboard/lib/client/js/admin_layout.js"
+			],
+			[
+				"collections/attache",
+				"packages/app-collections/attachments.coffee"
+			],
+			[
+				"admintemp",
+				"packages/admin-dashboard/lib/client/html/admin_templates.html"
+			],
+			[
+				"admindashboardrou",
+				"packages/admin-dashboard/lib/both/router.coffee"
+			],
+			[
+				"smart.json",
+				"smart.json"
+			],
+			[
+				"commentds",
+				"packages/app-comment-sidebar/client/comment-sidebar.html"
+			],
+			[
+				"app-helpers",
+				"packages/app-helpers/lib/client/helpers.coffee"
+			],
+			[
+				"users",
+				"packages/app-collections/users.coffee"
+			],
+			[
+				"profile.coffee",
+				"packages/app-profile/lib/client/profile.coffee"
+			],
+			[
+				"adminlayout.th",
+				"packages/admin-dashboard/lib/client/html/admin_layouts.html"
+			],
+			[
+				"app-config.",
+				"packages/app-config/app-config.coffee"
+			],
+			[
+				"adminlayout.html",
+				"packages/admin-dashboard/lib/client/html/admin_layouts.html"
+			],
+			[
+				"app-config",
+				"packages/app-config/app-config.coffee"
+			],
+			[
+				"admidashboardlayout.js",
+				"packages/admin-dashboard/lib/client/js/admin_layout.js"
+			],
+			[
+				"data",
+				"packages/admin-dashboard/lib/client/js/datatable.js"
+			],
+			[
+				"championdetail.th",
+				"packages/app-champion-detail/client/champion-detail.html"
+			],
+			[
+				"champion-dea",
+				"packages/app-champion-detail/client/champion-detail.less"
+			],
+			[
+				"masterl",
+				"packages/app-layouts/lib/client/master_layout.coffee"
+			],
+			[
+				"sidebar",
+				"packages/app-comment-sidebar/client/comment-sidebar.html"
+			],
+			[
+				"masterla",
+				"packages/app-layouts/lib/client/master_layout.html"
+			],
+			[
+				"commentsidebar",
+				"packages/app-comment-sidebar/client/comment-sidebar.html"
+			],
+			[
+				"champion",
+				"packages/app-champion-detail/client/champion-detail.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/freelance/bvolo/bvolo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

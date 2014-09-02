@@ -1,0 +1,79 @@
+{
+  "builtBy": "meteor/13",
+  "buildDependencies": {
+    "os.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/AdminDashboard.coffee": "d2a8a20c8c051cf6c6b4f3e53b6c7be58540cbc9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/router.coffee": "57a2d2bc9bb872a21eeb65ffe11e52bfc16bc0b9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/server/publish.coffee": "ffaa39d6eee5a1b789059ddd6cd3b9cc68009e5e",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/server/methods.coffee": "7d3ee0a498caaeb7434eed403d245b4e28ece8d2",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/server/startup.coffee": "23f81439211db4d011af39b2c2da47b10012070d"
+      },
+      "directories": []
+    },
+    "web.browser.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/AdminDashboard.coffee": "d2a8a20c8c051cf6c6b4f3e53b6c7be58540cbc9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/router.coffee": "57a2d2bc9bb872a21eeb65ffe11e52bfc16bc0b9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_templates.html": "d744737602f539d62e90b84a3668d21f575a8b23",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_widgets.html": "c34519a4e05a146648e16c37e7531d93621bd413",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_layouts.html": "1fc87064e9358df07f712870838b63a96a740a59",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_sidebar.html": "a0be9664843ca4f3fcc6dcbe6b8620b89dfed782",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_header.html": "7164b84d2e8cd4e29741377322d548950af66711",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/css/admin-layout.less": "ce974ed4975b80c7c220ee313854fbcdc5cd19b7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/admin_layout.js": "9a3b099df0fe2e7d505d08fa0bcf4e977c372a7b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/helpers.coffee": "db796d6ceb15523f64dfd13f17dc88e76402c3e7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/events.coffee": "e3e0254c08116241b148d173a3a13dfcd59a35e1",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/datatable.js": "b02cd8c0bbc12484596faeec956079876386a66b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/autoForm.coffee": "bdcb05e91ad0c7f3763d1bf153e5565eab1fa73f"
+      },
+      "directories": []
+    },
+    "web.cordova.json": {
+      "files": {
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/AdminDashboard.coffee": "d2a8a20c8c051cf6c6b4f3e53b6c7be58540cbc9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/both/router.coffee": "57a2d2bc9bb872a21eeb65ffe11e52bfc16bc0b9",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_templates.html": "d744737602f539d62e90b84a3668d21f575a8b23",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_widgets.html": "c34519a4e05a146648e16c37e7531d93621bd413",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_layouts.html": "1fc87064e9358df07f712870838b63a96a740a59",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_sidebar.html": "a0be9664843ca4f3fcc6dcbe6b8620b89dfed782",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/html/admin_header.html": "7164b84d2e8cd4e29741377322d548950af66711",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/css/admin-layout.less": "ce974ed4975b80c7c220ee313854fbcdc5cd19b7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/admin_layout.js": "9a3b099df0fe2e7d505d08fa0bcf4e977c372a7b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/helpers.coffee": "db796d6ceb15523f64dfd13f17dc88e76402c3e7",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/events.coffee": "e3e0254c08116241b148d173a3a13dfcd59a35e1",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/slim_scroll.js": "b0c92e88a3c4ba865d62b61b284fc89e06c5db89",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/datatable.js": "b02cd8c0bbc12484596faeec956079876386a66b",
+        "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/lib/client/js/autoForm.coffee": "bdcb05e91ad0c7f3763d1bf153e5565eab1fa73f"
+      },
+      "directories": []
+    }
+  },
+  "pluginDependencies": {
+    "files": {
+      "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard/package.js": "233b86901d8df33306eaeeb95318f601af2172a2"
+    },
+    "directories": []
+  },
+  "source": "/Users/gringo/dev/freelance/bvolo/packages/admin-dashboard",
+  "buildTimeDirectDependencies": {
+    "session": "1.0.0",
+    "templating": "1.0.4",
+    "coffeescript": "1.0.2",
+    "accounts-base": "1.0.0",
+    "less": "1.0.6",
+    "underscore": "1.0.0",
+    "email": "1.0.2",
+    "simple-schema": "0.0.0+e3b6cc2b7c81813980ea768eeacacdaf3be0e728",
+    "roles": "0.0.0+701915bc8f11d5805c1f8c154a6aeda94932361f",
+    "jquery": "1.0.0",
+    "meteor": "1.0.2",
+    "iron-router": "0.8.2+21060a42e33eb2eea05562f6a9ba0673bba31585",
+    "autoform": "0.0.0+91685688630d3114bd48775e4a9376c5b51ee027"
+  },
+  "buildTimePluginDependencies": {}
+}
